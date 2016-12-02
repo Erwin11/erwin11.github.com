@@ -1,0 +1,20 @@
+<article class="component" id="layout" data-url='layout'>
+    <h2 class="component-title">公司独立WebApp</h2>
+    <p class="component-description">手机端的WebApp,目标是实现用户手机下单购买旅游产品以及阅读相关公众号所产出的功略文章。<br>
+    技术架构:<br>Gulp+Webpack+Vue.js+Framework7+leancloud</p>
+    <div class="component-example component-example-fullbleed">
+    <div id="layout-qrcode" class="qrcode">
+    </div>
+<script type="text/javascript">
+var qrcode = new QRCode(document.getElementById("layout-qrcode"), {
+    text: "http://www.inwanwan.com/mobinwan/build/views/app/index.html",
+    width: 100,
+    height: 100,
+    colorDark : "#000000",
+    colorLight : "#ffffff",
+    correctLevel : QRCode.CorrectLevel.H
+});
+</script>
+    <p class="text-center">微信扫一扫</p>
+    </div>
+</article>

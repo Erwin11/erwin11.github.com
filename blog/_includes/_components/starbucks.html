@@ -1,0 +1,27 @@
+<article class="component" id="starbucks" data-url='starbucks'>
+  <h2 class="component-title">星巴克表单填写（业务优化）</h2>
+  <p class="component-description">企业内部的操作优化，键入产品核销信息，即可一键导出预约单信息，提供给买家。</p>
+
+  <h3>使用前</h3>
+  <p>操作用时约2分钟</p>
+  <p>员工手工填写多个变量如日期，时间，兑换码，还需要选中文字后进行粘贴。</p>
+
+  <h3>使用后</h3>
+  <p>操作用时约30秒</p>
+  <p>员工通过可视化操作，只需录入兑换码，点击按钮即可完成后续步骤。提升效率至少4倍。</p>
+  <div class="component-example component-example-fullbleed">
+    <div id="starbucks-qrcode" class="qrcode">
+    </div>
+<script type="text/javascript">
+var qrcode = new QRCode(document.getElementById("starbucks-qrcode"), {
+    text: "http://www.inwanwan.com/airbnb/101starbucks/101.html",
+    width: 100,
+    height: 100,
+    colorDark : "#000000",
+    colorLight : "#ffffff",
+    correctLevel : QRCode.CorrectLevel.H
+});
+</script>
+    <p class="text-center">微信扫一扫</p>
+    </div>
+</article>

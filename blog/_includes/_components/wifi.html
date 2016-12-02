@@ -1,0 +1,23 @@
+<article class="component" id="wifi" data-url='wifi'>
+  <h2 class="component-title">WiFi 手机预约单</h2>
+  <p class="component-description">响应式布局，PC手机同时支持。</p>
+
+  <h3>概述</h3>
+  <p>便利性：旅客在任何时间任何地点都可预约之前购买的wifi产品。</p>
+  <p>让自由行的背包族旅客更加自由，充分享受移动互联网的红利。</p>
+  <div class="component-example component-example-fullbleed">
+    <div id="wifi-qrcode" class="qrcode">
+    </div>
+<script type="text/javascript">
+var qrcode = new QRCode(document.getElementById("wifi-qrcode"), {
+    text: "http://www.inwanwan.com/wifi/new/wifi.html",
+    width: 100,
+    height: 100,
+    colorDark : "#000000",
+    colorLight : "#ffffff",
+    correctLevel : QRCode.CorrectLevel.H
+});
+</script>
+    <p class="text-center">微信扫一扫</p>
+    </div>
+</article>

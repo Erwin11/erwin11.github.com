@@ -1,0 +1,25 @@
+<article class="component" id="h5card" data-url='h5card'>
+  <h2 class="component-title">H5营销-刮刮卡</h2>
+  <p class="component-description">利用刮刮卡随机挂出优惠券，拉动老客户回流。</p>
+
+  <h3>使用Html5技术</h3>
+  <p>有利用到Camera、Canvas、localStorage等新技术。</p>
+
+  <h3>促使公众号的用户和淘宝用户相互打通</h3>
+  <p>吸引微信用户上淘宝购买商品，进行流量变现。</p>
+  <div class="component-example component-example-fullbleed">
+    <div id="h5card-qrcode" class="qrcode">
+    </div>
+<script type="text/javascript">
+var qrcode = new QRCode(document.getElementById("h5card-qrcode"), {
+    text: "http://www.meimeilook.com/cp/cp.html",
+    width: 100,
+    height: 100,
+    colorDark : "#000000",
+    colorLight : "#ffffff",
+    correctLevel : QRCode.CorrectLevel.H
+});
+</script>
+    <p class="text-center">微信扫一扫</p>
+    </div>
+</article>

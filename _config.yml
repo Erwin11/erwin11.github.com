@@ -1,0 +1,17 @@
+# Meta data
+name:         CV
+authors:      ErwiN
+description:  ErwiN's CV.
+favicon:      assets/img/favicon-16x16.png
+version:      0.0.1
+
+# Dependencies
+highlighter:  rouge
+
+# Permalinks
+permalink:    pretty
+
+# Server
+source:       blog
+host:         0.0.0.0
+port:         4000
